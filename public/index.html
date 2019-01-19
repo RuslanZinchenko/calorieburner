@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <title>CalorieBurner</title>
+  </head>
 
-</head>
-
-<body>
-
-${require("./header.html")}
-</body>
-
+  <body>
+    ${require("./header.html")}
+    <div class="progress-wrapper">
+      <h2 class="progress-wrapper__title">Ваш прогресс тренировок</h2>
+      ${require("./progress-bar-first.html")}
+    </div>
+  </body>
 </html>

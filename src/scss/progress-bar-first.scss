@@ -1,0 +1,21 @@
+.progress-wrapper {
+  text-align: center;
+  @include for-size(tablet) {
+    background-color: $bg-light-color;
+  }
+  &__title {
+    width: 70%;
+    margin: 0 auto;
+    font-family: $main-font;
+    font-size: $small-title-size;
+    font-weight: $font-weight-bold;
+    color: $text-dark-color;
+
+    @include for-size(tablet) {
+      font-size: $big-title-size;
+    }
+    @include for-size(desktop) {
+      font-size: $desktop-small-title-size;
+    }
+  }
+}
