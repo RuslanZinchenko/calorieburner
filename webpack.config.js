@@ -2,6 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CleanWebpackPlugin = require("clean-webpack-plugin");
+//const ExtractTextPlugin = require('extract-text-webpack-plugin');
 // require("html-loader?interpolate!./index.html");
 
 module.exports = {
@@ -40,7 +41,11 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
-        use: ["file-loader"]
+        //use: ["file-loader"],
+          loader: "file-loader",
+        options: {
+          name: "./img/[name].[ext]"
+        },
       },
       {
         test: /\.hbs$/,
@@ -55,7 +60,7 @@ module.exports = {
       hash: true,
       template: '!!html-loader?interpolate!./public/index.html',
       // template: "./public/index.html",
-      filename: "index.html"
+      filename: "index.html",
     }),
     new MiniCssExtractPlugin({
       filename: "styles.css"

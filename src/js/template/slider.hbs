@@ -1,0 +1,66 @@
+{{#each arr}}
+  <div class="aaa">
+    <section class="slider-text-pos">
+      <h2 class="slider-text__title">
+        {{name}}
+      </h2>
+      <ul class="slider-text__list">
+        <li class="slider-text__item">
+          <span class="slider-text__item-description">
+            <svg class="slider-text__item-icon">
+              <use
+                href="./../src/img/icons/sprite.svg#icon-baseline-timer-24px"
+              ></use>
+            </svg>
+            Длительность:
+            <span class="slider-text__item-fromarray">
+              {{duration}}
+            </span>
+          </span>
+        </li>
+        <li class="slider-text__item">
+          <span class="slider-text__item-description">
+            <svg class="slider-text__item-icon">
+              <use
+                href="./../src/img/icons/sprite.svg#icon-baseline-star_border-24px"
+              ></use>
+            </svg>
+            Сложность:
+            <span class="slider-text__item-fromarray">
+              {{level}}
+            </span>
+          </span>
+        </li>
+        <li class="slider-text__item">
+          <span class="slider-text__item-description">
+            <svg class="slider-text__item-icon">
+              <use
+                href="./../src/img/icons/sprite.svg#icon-baseline-whatshot-24px"
+              ></use>
+            </svg>
+            Сжигает:
+            <span class="slider-text__item-fromarray">
+              {{calories}}
+            </span>
+          </span>
+        </li>
+        <li class="slider-text__item">
+          <span class="slider-text__item-description">
+            <svg class="slider-text__item-icon">
+              <use
+                href="./../src/img/icons/sprite.svg#icon-baseline-fitness_center-24px"
+              ></use>
+            </svg>
+            Инвентарь:
+            <span class="slider-text__item-fromarray">
+              {{inv}}
+            </span>
+          </span>
+        </li>
+      </ul>
+    </section>
+    <a class="slider-link" href="{{src}}" target="iframe_a">
+      <img src="{{img}}" />
+    </a>
+  </div>
+{{/each}}

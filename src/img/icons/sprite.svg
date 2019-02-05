@@ -1,0 +1,32 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-baseline-arrow_right_alt-24px" viewBox="0 0 24 24">
+<title>baseline-arrow_right_alt-24px</title>
+<path d="M21.347 14.667h-16.013v2.667h16.013v4l5.32-5.333-5.32-5.333z"></path>
+</symbol>
+<symbol id="icon-baseline-fitness_center-24px" viewBox="0 0 30 30">
+<title>baseline-fitness_center-24px</title>
+<path d="M27.427 19.813l1.907-1.907-1.907-1.907-4.76 4.76-11.427-11.427 4.76-4.76-1.907-1.907-1.907 1.907-1.907-1.907-2.853 2.853-1.907-1.907-1.907 1.907 1.907 1.907-2.853 2.853 1.907 1.907-1.907 1.907 1.907 1.907 4.76-4.76 11.427 11.427-4.76 4.76 1.907 1.907 1.907-1.907 1.907 1.907 2.853-2.853 1.907 1.907 1.907-1.907-1.907-1.907 2.853-2.853z"></path>
+</symbol>
+<symbol id="icon-baseline-keyboard_arrow_down-24px" viewBox="0 0 24 24">
+<title>baseline-keyboard_arrow_down-24px</title>
+<path d="M9.88 11.453l6.12 6.107 6.12-6.107 1.88 1.88-8 8-8-8 1.88-1.88z"></path>
+</symbol>
+<symbol id="icon-baseline-play_arrow-24px" viewBox="0 0 24 24">
+<title>baseline-play_arrow-24px</title>
+<path d="M10.667 6.667v18.667l14.667-9.333z"></path>
+</symbol>
+<symbol id="icon-baseline-star_border-24px" viewBox="0 0 30 30">
+<title>baseline-star_border-24px</title>
+<path d="M29.333 12.32l-9.587-0.827-3.747-8.827-3.747 8.84-9.587 0.813 7.28 6.307-2.187 9.373 8.24-4.973 8.24 4.973-2.173-9.373 7.267-6.307zM16 20.533l-5.013 3.027 1.333-5.707-4.427-3.84 5.84-0.507 2.267-5.373 2.28 5.387 5.84 0.507-4.427 3.84 1.333 5.707-5.027-3.040z"></path>
+</symbol>
+<symbol id="icon-baseline-timer-24px" viewBox="0 0 30 30">
+<title>baseline-timer-24px</title>
+<path d="M20 1.333h-8v2.667h8v-2.667zM14.667 18.667h2.667v-8h-2.667v8zM25.373 9.853l1.893-1.893c-0.573-0.68-1.2-1.32-1.88-1.88l-1.893 1.893c-2.067-1.653-4.667-2.64-7.493-2.64-6.627 0-12 5.373-12 12s5.36 12 12 12 12-5.373 12-12c0-2.827-0.987-5.427-2.627-7.48zM16 26.667c-5.16 0-9.333-4.173-9.333-9.333s4.173-9.333 9.333-9.333 9.333 4.173 9.333 9.333-4.173 9.333-9.333 9.333z"></path>
+</symbol>
+<symbol id="icon-baseline-whatshot-24px" viewBox="0 0 30 30">
+<title>baseline-whatshot-24px</title>
+<path d="M18 0.893s0.987 3.533 0.987 6.4c0 2.747-1.8 4.973-4.547 4.973-2.76 0-4.84-2.227-4.84-4.973l0.040-0.48c-2.693 3.2-4.307 7.347-4.307 11.853 0 5.893 4.773 10.667 10.667 10.667s10.667-4.773 10.667-10.667c0-7.187-3.453-13.6-8.667-17.773zM15.613 25.333c-2.373 0-4.293-1.867-4.293-4.187 0-2.16 1.4-3.68 3.747-4.16 2.36-0.48 4.8-1.613 6.16-3.44 0.52 1.72 0.787 3.533 0.787 5.387 0 3.533-2.867 6.4-6.4 6.4z"></path>
+</symbol>
+</defs>
+</svg>

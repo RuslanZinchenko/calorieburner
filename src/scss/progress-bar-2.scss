@@ -1,0 +1,161 @@
+@import "../progress-bar/loading-bar.css";
+@import "variables.scss";
+@import "mixin";
+@import "normalize";
+@import "reset";
+
+.progress-bar2-container {
+  background-color: $main-dark-color;
+}
+.progress-bar-time {
+  font-family: $main-font;
+  font-size: 30px;
+  font-weight: bold;
+  color: $main-light-color;
+}
+.progress-bar-small{
+  font-family: $main-font;
+  font-size: $big-text-size;
+  font-weight: bold;
+  color: $main-light-color;
+  margin-top: 12px;
+}
+
+
+.ldBar-label:after {
+  content: "";
+  color: $main-light-color;
+  margin-left: 5px;
+  font-family: $main-font;
+  font-size: 0.7em;
+  font-weight: 200;
+}
+.ldBar-label {
+  color: $main-light-color;
+  display: flex;
+}
+
+.ldBar.label-center > .ldBar-label {
+  top: 58%;
+}
+
+path {
+  stroke-linecap: round;
+}
+.progress-bar-item {
+  list-style: none;
+}
+
+@include for-size(phone) {
+  .progress-bar2-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .ldBar {
+    margin: auto;
+  }
+  .progress-bar-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .progress-bar-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .progress-bar-title {
+    text-transform: uppercase;
+    font-family: $main-font;
+    font-weight: $font-weight-bold;
+    font-size: $subtitle-size;
+    color: $bg-light-color;
+    padding-top: 40px;
+    margin-bottom: 15px;
+  }
+  .progress-bar-item-text {
+    font-family: $main-font;
+    font-weight: $font-weight-bold;
+    font-size: $medium-text-size;
+    color: $main-light-color;
+    display: block;
+  }
+  .progress-bar-item-text:last-child {
+    padding-bottom: 40px;
+  }
+}
+@include for-size(tablet) {
+  .progress-bar2-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .progress-bar-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-bottom: 45px;
+  }
+  .progress-bar-title {
+    text-align: left;
+    text-transform: uppercase;
+    font-family: $main-font;
+    font-weight: $font-weight-bold;
+    font-size: $tablet-medium-text-size;
+    color: $bg-light-color;
+    display: block;
+    padding-left: 6%;
+    padding-top: 46px;
+    padding-bottom: 50px;
+    width: 488px;
+  }
+  .progress-bar-item-text {
+    font-family: $main-font;
+    font-weight: $font-weight-bold;
+    font-size: $medium-text-size;
+    color: $main-light-color;
+  }
+}
+
+@include for-size(desktop) {
+  .progress-bar2-container {
+    // flex-basis: 35%;
+    width: 49%;
+    max-width: 800px;
+    // box-sizing: content-box;
+    padding-bottom: 70px;
+  }
+  .progress-bar-title {
+    display: block;
+    // width: 287px;
+    width: 100%;
+    padding-left: 46px;
+    padding-top: 60px;
+    padding-bottom: 75px;
+  }
+
+  .progress-bar-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-bottom: 0;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  .progress-bar-title {
+    text-transform: uppercase;
+    font-family: $main-font;
+    font-weight: $font-weight-bold;
+    font-size: $tablet-medium-text-size;
+    color: $bg-light-color;
+  }
+  .progress-bar-item-text {
+    font-family: $main-font;
+    font-weight: $font-weight-bold;
+    font-size: $medium-text-size;
+    color: $main-light-color;
+    padding-bottom: 28px;
+  }
+}

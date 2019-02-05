@@ -1,0 +1,251 @@
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90vw;
+  height: 90vh;
+  background-color: rgba(140, 140, 141, 0.7);
+  z-index: 9923129;
+}
+
+.madal-btn__close {
+  color: blue;
+  font-size: 2.5rem;
+  font-weight: bold;
+  position: absolute;
+  z-index: 9999991;
+  top: 0%;
+  right: 1%;
+  cursor: pointer;
+}
+.madal-btn__close:hover {
+  color:black;
+  transform: scale(1.5); 
+}
+.modal-content {
+  position: absolute;
+  // left: 50%;
+  // top: 50%;
+  // transform: translateX(-50%) translateY(-50%);
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+  z-index: 9999992;
+  
+  // width: 60vw;
+  // height: 80vh;
+  // @include for-size(phone) {
+  //   width: 70vw;
+  //   height: 60vh;
+  // }
+  // @include for-size(tablet) {
+  //   width: 70vw;
+  //   height: 75vh;
+  // }
+
+
+
+  &__iframe {
+    &-wrap {
+      width: 100%;
+      height: 100%;
+      // @include for-size(phone) {
+      //   height: 70%;
+      // }
+    }
+    display: block;
+  }
+  // &__counter {
+  //   text-align: center;
+  //   padding-top: 15px;
+  //   &-wrap {
+  //     width: 150px;
+  //     height: 50px;
+  //     background-color: palevioletred;
+  //     margin: 0 auto;
+  //     font-family: $main-font;
+  //     font-size: $small-title-size;
+  //   }
+  // }
+}
+
+.modal-content__counter-num {
+  color: #e5e7f8;
+  background-color: #394ace;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: $main-font;
+  position: absolute;
+  z-index: 9999992;
+  top: 20%;
+  right: 81%;
+  border: 3px solid #394ace;
+  border-radius: 50%;
+}
+
+.modal-content__counter-text {
+  position: absolute;
+  top: 60%;
+  right: 83%;
+  z-index: 9999992;
+  font-size: 1rem;
+}
+
+#p_prldr{
+  position: fixed;
+  width: 20%;
+  height: 30%;
+  left: 66%;
+  top: 0;
+  right:0;
+  bottom:0;
+  z-index: 30;}
+     
+  .contpre{
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  left: 100%;top: 0%;
+  color:#fff;
+  font-size:40px;
+  letter-spacing:-2px;
+  text-align:center;
+  line-height:35px;}
+   
+  #p_prldr .svg_anm {
+  position: absolute;
+  z-index: 3;
+  width: 70px;
+  height: 70px;
+  background: url(../img/spin.svg) center center no-repeat;
+  background-size:70px;   
+  margin-bottom: 20px; 
+  }
+  .svg_anm {
+    display: none;
+  }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    .modal-content__counter-text {
+      position: absolute;
+      top: 60%;
+      right: 83%;
+      z-index: 9999992;
+      font-size: 1rem;
+    }
+    .madal-btn__close {
+      color: blue;
+      font-size: 2.5rem;
+      font-weight: bold;
+      position: absolute;
+      z-index: 9999991;
+      top: 4%;
+      right: 5%;
+      cursor: pointer;
+    }
+
+    #p_prldr{
+      left: 40%;
+    }
+     .modal-content__counter-num {
+      color: #e5e7f8;
+      background-color: #394ace;
+      font-size: 1rem;
+      line-height: 1.5;
+      font-family: $main-font;
+      position: absolute;
+      z-index: 9999992;
+      top: 20%;
+      right: 81%;
+      border: 3px solid #394ace;
+      border-radius: 50%;
+        
+    }
+
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .modal-content__counter-text {
+      position: absolute;
+      top: 60%;
+      right: 83%;
+      z-index: 9999992;
+      font-size: 1rem;
+    }
+    .madal-btn__close {
+      color: blue;
+      font-size: 2.5rem;
+      font-weight: bold;
+      position: absolute;
+      z-index: 9999991;
+      top: 0%;
+      right: 1%;
+      cursor: pointer;
+    }
+    #p_prldr{
+     left: 60%;
+     
+    }
+
+    .modal-content__counter-num {
+      color: #e5e7f8;
+      background-color: #394ace;
+      font-size: 1rem;
+      line-height: 1.5;
+      font-family: $main-font;
+      position: absolute;
+      z-index: 9999992;
+      top: 20%;
+      right: 81%;
+      border: 3px solid #394ace;
+      border-radius: 50%;
+        
+    }
+
+  }
+ 
+  @media (min-width: 1024) {
+    .modal-content__counter-text {
+      position: absolute;
+      top: 60%;
+      right: 83%;
+      z-index: 9999992;
+      font-size: 1rem;
+    }
+    .madal-btn__close {
+      color: blue;
+      font-size: 2.5rem;
+      font-weight: bold;
+      position: absolute;
+      z-index: 9999991;
+      top: 0%;
+      right: 1%;
+      cursor: pointer;
+    }
+
+    #p_prldr{
+      position: fixed;
+      width: 20%;
+      height: 30%;
+      left: 60%;
+      top: 0;
+      right:0;
+      bottom:0;
+      z-index: 30;}
+
+    .modal-content__counter-num {
+      color: #e5e7f8;
+      background-color: #394ace;
+      font-size: 1rem;
+      line-height: 1.5;
+      font-family: $main-font;
+      position: absolute;
+      z-index: 9999992;
+      top: 20%;
+      right: 81%;
+      border: 3px solid #394ace;
+      border-radius: 50%;
+        
+    }
+
+  }

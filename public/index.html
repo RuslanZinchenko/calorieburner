@@ -4,25 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
     <title>CalorieBurner</title>
   </head>
 
   <body>
-   
+    ${require("./header.html")} ${require("./filter.html")}
+    ${require("./slider.html")}
     <div class="progress-wrapper">
       <h2 class="progress-wrapper__title">Ваш прогресс тренировок</h2>
+      <!-- <div class="progress-wrapper__loaders-container"> -->
       ${require("./progress-bar-first.html")}
+      ${require("./progress-bar-2.html")}
+      <!-- </div> -->
     </div>
+      ${require("./footer.html")}
   </body>
-
-</head>
-
-<body>
-
-${require("./header.html")}
-${require("./filter.html")}
-</body>
-
-
 </html>

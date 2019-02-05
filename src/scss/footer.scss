@@ -1,0 +1,33 @@
+.footer {
+  padding-top: 40px;
+  font-family: $main-font, sans-serif;
+  font-size: 9px;
+  text-align: center;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+  margin: 0 auto;
+}
+
+.footer_hr {
+  margin: 40px 0 25px 0;
+  opacity: 0.5;
+}
+
+.footer_text {
+  padding-bottom: 25px;
+  color: $text-light-color;
+  width: 66%;
+  margin: 0 auto;
+}
+
+@include for-size (desktop){
+
+  .footer {
+  font-size: 11px;
+  line-height: 18px;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+  }

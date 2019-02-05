@@ -1,0 +1,146 @@
+
+.container_header {
+  display: block;
+  position: relative;
+  width: 100%;
+  
+  @include for-size (tablet){
+    // height: 350px;
+  }
+  @include for-size (desktop){
+    // height: 750px;
+  }
+};
+
+.header {
+  width: 76.6%;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  @include for-size (tablet){
+    width: 86.8%;
+    margin-left: 0;
+    padding-left: 60px;
+  }
+  @include for-size (desktop){
+   // width: 63%;
+    width: 85%;
+    padding-left: 0;
+    padding-top: 30px;
+    margin: 0 auto;
+  }
+}
+
+.logo {
+  @include for-size (desktop){
+    margin-left: 13%;
+   } 
+}
+
+
+.header__img {
+  display: inline-block; 
+  filter: brightness(0) invert(1);
+  @include for-size (desktop){
+    width: 170px;
+   } 
+}
+
+.container_header_background {
+  background: url(../img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 44%;
+  @include for-size (desktop){
+    background-position-y: 76%;
+     
+   } 
+}
+
+.container_header_banner {
+
+  display: block;
+  background: rgba(19, 47, 179, .70);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.header_maintext {
+  margin: 0 auto;
+  font-family: $main-font, sans-serif;
+  color: #ffffff;
+  letter-spacing: 3px;
+  padding-top: 150px;
+  @include for-size (tablet){
+    width: 75.5%;
+    margin-left: 0;
+    }
+  @include for-size (desktop){
+    letter-spacing: 2px;
+     width: 74.5%;
+     padding-top: 300px;
+     padding-bottom: 140px;
+     margin: 0 auto;
+     text-align: center;
+  }   
+}
+
+.header_title{
+  font-size: 22px; 
+  text-align: justify;
+  @include for-size (tablet){
+    font-size: 40px;
+    }
+    @include for-size (desktop){
+      font-size: 60px;
+      line-height: 75px;
+      margin-bottom: 45px;
+      padding-left: 30px;
+      }
+}   
+
+.header_hr {
+  width: 40px;
+  margin: 15px 0;
+  @include for-size (tablet){
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  @include for-size (desktop){
+    width: 80px;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+}
+
+.header_subtitle br {
+  display: none;
+}
+
+.header_subtitle{
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 19px;
+  text-align: left;
+  @include for-size (tablet){
+    //font-size: 10px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 5px;
+    //margin-left: 10px;
+   // text-align: right;
+   
+  }
+  @include for-size (desktop){
+    br {
+      display: block;
+    }
+
+    width: 85%;
+    font-size: 12px;
+    line-height: 19px;
+    //margin-bottom: 160px;
+  }
+}
