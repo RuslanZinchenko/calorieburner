@@ -93,7 +93,7 @@ const arrayVideos = [
     duration: "14 минут",
     calories: "110 ккал",
     inv: "Коврик для йоги и гантели",
-    src: "https://www.youtube.com/embed/oLOAffuSRds&t?enablejsapi=1",
+    src: "https://www.youtube.com/embed/oLOAffuSRds?enablejsapi=1",
     level: "Простая",
     img: "https://img.youtube.com/vi/oLOAffuSRds/sddefault.jpg"
   },
@@ -102,7 +102,7 @@ const arrayVideos = [
     duration: "10 минут",
     calories: "100 ккал",
     inv: "Не нужен",
-    src: "https://www.youtube.com/embed/irALl4gr9zA&t?enablejsapi=1",
+    src: "https://www.youtube.com/embed/irALl4gr9zA?enablejsapi=1",
     level: "Сложная",
     img: "https://img.youtube.com/vi/irALl4gr9zA/sddefault.jpg"
   },
@@ -398,7 +398,7 @@ function ifClearArray() {
   const out = document.querySelector(".slider-list");
   const message = document.createElement("P");
   message.classList.add("noneArray");
-  message.innerHTML = "по Вашим параметрам тренировки не найдены. Примените другие критерии!";
+  message.innerHTML = "По Вашим параметрам тренировки не найдены. Примените другие критерии!";
   out.appendChild(message);
 }
 destroyThumbnailBarSlick();

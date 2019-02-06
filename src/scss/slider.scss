@@ -41,10 +41,10 @@ $slick-arrow-color: black !default;
   .slider-text-pos {
     display: block;
     transform: translateY(-50%);
-    transform: translateX(-90%);
+    transform: translateX(-94%);
     min-width: 230px;
     margin-bottom: 10%;
-    padding-right: 10%;
+    padding-right: 9%;
     // margin: 0 auto;
   }
   .aaa {
@@ -150,7 +150,7 @@ $slick-arrow-color: black !default;
     left: 5%;
     // transform: translateX(100%);
     // transform: translateY(-50%);
-    width: 29%;
+    width: 30%;
     text-align: left;
     z-index: 22;
   }
@@ -194,12 +194,16 @@ $slick-arrow-color: black !default;
     text-align: left;
     line-height: 1.4;
   }
+  .slider-text__list {
+    width: 300px;
+  }
   .slider-text__item-description {
     font-size: 13px;
     color: rgb(81, 86, 107);
     text-align: left;
     line-height: 2.667;
-  }
+    width: 300px;
+      }
   .slider-text__item-icon {
     fill: rgb(44, 73, 211);
     margin-right: 12px;
@@ -237,10 +241,7 @@ $slick-arrow-color: black !default;
     display: block;
     position: absolute;
     top: 10%;
-
     left: 15%;
-    // transform: translateX(100%);
-    // transform: translateY(-50%);
     width: 30%;
     text-align: left;
     z-index: 22;
@@ -251,15 +252,13 @@ $slick-arrow-color: black !default;
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    // margin-top: 10%;
   }
   .slider-link {
     position: relative;
     width: 50%;
     display: block;
     border: none;
-    // margin-left: 30%;
-  }
+   }
   .toShow {
     display: block;
   }

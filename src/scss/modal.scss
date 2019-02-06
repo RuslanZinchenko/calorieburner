@@ -15,7 +15,7 @@
   font-weight: bold;
   position: absolute;
   z-index: 9999991;
-  top: 0%;
+  top: 17%;
   right: 1%;
   cursor: pointer;
 }
@@ -25,27 +25,11 @@
 }
 .modal-content {
   position: absolute;
-  // left: 50%;
-  // top: 50%;
-  // transform: translateX(-50%) translateY(-50%);
   width: 100vw;
   height: 100vh;
   overflow: scroll;
   z-index: 9999992;
   
-  // width: 60vw;
-  // height: 80vh;
-  // @include for-size(phone) {
-  //   width: 70vw;
-  //   height: 60vh;
-  // }
-  // @include for-size(tablet) {
-  //   width: 70vw;
-  //   height: 75vh;
-  // }
-
-
-
   &__iframe {
     &-wrap {
       width: 100%;
@@ -106,7 +90,8 @@
   width: 250px;
   height: 100px;
   position: absolute;
-  left: 100%;top: 0%;
+  left: 100%;
+  top: 46%;
   color:#fff;
   font-size:40px;
   letter-spacing:-2px;
@@ -140,7 +125,7 @@
       font-weight: bold;
       position: absolute;
       z-index: 9999991;
-      top: 4%;
+      top: 16%;
       right: 5%;
       cursor: pointer;
     }
@@ -178,7 +163,7 @@
       font-weight: bold;
       position: absolute;
       z-index: 9999991;
-      top: 0%;
+      top: 17%;
       right: 1%;
       cursor: pointer;
     }
@@ -218,7 +203,7 @@
       font-weight: bold;
       position: absolute;
       z-index: 9999991;
-      top: 0%;
+      top: 17%;
       right: 1%;
       cursor: pointer;
     }
