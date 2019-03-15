@@ -39,5 +39,13 @@
     "slick-carousel": "^1.8.1",
     "youtube-iframe": "^1.0.3",
     "youtube-player": "^5.5.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuslanZinchenko/calorieburner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RuslanZinchenko/calorieburner/issues"
+  },
+  "homepage": "https://github.com/RuslanZinchenko/calorieburner#readme"
 }

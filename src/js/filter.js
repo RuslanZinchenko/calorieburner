@@ -256,10 +256,10 @@ viewAllVideos(arrayVideos);
 // }
 
 // get filters menu items
-const filterInventory = document.getElementById("js__filter-inventory");
-const filterDifficult = document.getElementById("js__filter-difficult");
-const filterCalory = document.getElementById("js__filter-calory");
-const filterTime = document.getElementById("js__filter-time");
+const filterInventory = document.getElementById("first");
+const filterDifficult = document.getElementById("second");
+const filterCalory = document.getElementById("third");
+const filterTime = document.getElementById("fourth");
 
 // get filter submenu items
 const submenuInventory = document.getElementById("js__submenu-inventory");
