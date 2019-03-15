@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production"
+    "start": "webpack --watch",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "Aleksey Potapov <aleksey.potapov1811@gmail.com>",
